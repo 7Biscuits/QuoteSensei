@@ -1,0 +1,11 @@
+{
+  "name": "quote_sensei-discord_bot",
+  "version": "1.0.0",
+  "description": "QuoteSensei discord bot",
+  "main": "app.js",
+  "author": "Rudransh",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  }
+}

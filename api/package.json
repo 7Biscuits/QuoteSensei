@@ -1,0 +1,13 @@
+{
+  "name": "quote_sensei-api",
+  "version": "1.0.0",
+  "description": "api for generating quote",
+  "main": "app.js",
+  "author": "Rudransh",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "openai": "^3.3.0"
+  }
+}
