@@ -2,14 +2,14 @@
 A quote generator bot made for National Design & Coding Championship 2023
 
 ## To start the api/server
-### cd api
-### yarn start
+### `cd api`
+### `yarn start`
 
 ## To start the react application
-## cd client
-## yarn start
+### `cd client`
+### `yarn start`
 
 ## To start the discord bot
-### cd discord
-### yarn deploy
-### yarn start
+### `cd discord`
+### `yarn deploy`
+### `yarn start`
