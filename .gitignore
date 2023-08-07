@@ -1,0 +1,7 @@
+#dependencies
+/node_modules
+/api/node_modules
+/discord/node_modules
+
+#misk
+.env
