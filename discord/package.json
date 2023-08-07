@@ -7,5 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.12.1"
+  },
+  "scripts": {
+    "bot": "node ./src/app.js",
+    "deploy": "node ./src/deploy-commands.js"
   }
 }
