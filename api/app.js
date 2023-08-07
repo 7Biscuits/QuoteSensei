@@ -2,6 +2,9 @@
 const express = require("express");
 const app = express();
 const ai = require("./Ai.js"); // Import the module containing the AI response function
+const cors = require("cors");
+
+app.use(cors());
 
 // Define an array of personalities
 const personalities = [
@@ -14,13 +17,13 @@ const personalities = [
 // Define an array of personality images corresponding to the personalities array
 const personalityImage = [
   "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg",
-  "https://dishabharat.org/wp-content/uploads/2013/01/Swami-ji.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/8/80/Swami_Vivekananda_1893_Scanned_Image.jpg",
   "https://karsh.org/wordpress/wp-content/uploads/2017/06/Yousuf-Karsh-Nelson-Mandela-1990-1523x1960.jpg",
   "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQriZJJgUvDvjxtBDign1m_iNqAjflnPoceV8b_jxuMD8Ak2caGbkpRmFqMNk2WFFx-nzcgTmBVLchrAH4",
 ];
 
 // Endpoint to get a random quote from a random personality using the AI response function
-app.get("/quote", async (req, res) => {
+app.get("/api/quote", async (req, res) => {
   // Generate a random index to select a personality from the array
   const personality = Math.floor(Math.random() * personalities.length);
 
