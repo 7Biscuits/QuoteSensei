@@ -18,8 +18,8 @@ const personalities = [
 const personalityImage = [
   "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg",
   "https://upload.wikimedia.org/wikipedia/commons/8/80/Swami_Vivekananda_1893_Scanned_Image.jpg",
-  "https://karsh.org/wordpress/wp-content/uploads/2017/06/Yousuf-Karsh-Nelson-Mandela-1990-1523x1960.jpg",
-  "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQriZJJgUvDvjxtBDign1m_iNqAjflnPoceV8b_jxuMD8Ak2caGbkpRmFqMNk2WFFx-nzcgTmBVLchrAH4",
+  "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rabindranath_Tagore.jpg",
 ];
 
 // Endpoint to get a random quote from a random personality using the AI response function
