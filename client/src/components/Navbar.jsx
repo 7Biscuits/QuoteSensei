@@ -3,7 +3,7 @@ const Navbar = ({ fetchQuote }) => {
         <nav className="bg-transparent border border-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="flex items-center">
-                    <img src="/logo.jpeg" class="h-8 mr-3 rounded-full" alt="Flowbite Logo" />
+                    <img src="/logo.jpeg" class="h-8 mr-3 rounded-full" alt="QuoteSensei logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuoteSensei</span>
                 </div>
                 <div className="space-x-4">
