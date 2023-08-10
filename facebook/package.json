@@ -1,0 +1,14 @@
+{
+  "name": "quote_sensei-facebook",
+  "version": "1.0.0",
+  "description": "Facebook integration for quotesensei bot",
+  "main": "./src/app.js",
+  "author": "Rudransh",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node ./src/app.js"
+  }
+}

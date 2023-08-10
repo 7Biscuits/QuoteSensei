@@ -1,0 +1,1 @@
+const { postContent } = require("./services/graph.api");
