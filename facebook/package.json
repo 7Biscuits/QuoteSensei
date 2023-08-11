@@ -5,9 +5,7 @@
   "main": "./src/app.js",
   "author": "Rudransh",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^1.4.0"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "node ./src/app.js"
   }
