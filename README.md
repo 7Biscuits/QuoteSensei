@@ -2,7 +2,8 @@
 A quote generator bot made for National Design & Coding Championship 2023
 
 ## To install all dependencies
-### yarn
+### cd QuoteSensei
+### `yarn`
 
 ## To start the api/server
 ### `cd api`
