@@ -1,6 +1,6 @@
 // Import necessary modules from discord.js
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
-const { quote } = require("../../../../utils/getQuote");
+const { getQuote } = require("../../../../utils/getQuote");
 
 module.exports = {
   // Define the command data using SlashCommandBuilder
@@ -14,7 +14,7 @@ module.exports = {
    */
   async execute(interaction) {
     // Fetch a random quote using the quote function
-    const res = await quote();
+    const res = await getQuote();
 
     // Create an embed using EmbedBuilder to format the quote and additional details
     const embed = new EmbedBuilder()

@@ -9,7 +9,6 @@ const QuoteCard = ({ quote, person, image }) => {
                 <p class="mb-3 font-normal text-gray-100">~ {person}</p>
             </div>
         </div>
-
     )
 }
 
