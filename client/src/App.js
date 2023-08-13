@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import QuoteCard from "./components/QuoteCard";
 import { useState, useRef } from "react";
+import { getQuote } from "../../utils/getQuote";
 
 function App() {
   const [quote, setQuote] = useState("");
@@ -10,8 +11,7 @@ function App() {
   const cardIsVisible = useRef(false);
 
   const fetchQuote = async () => {
-    const res = await fetch("http://localhost:3000/api/quote");
-    const data = await res.json();
+    const data = await getQuote();
     if (!cardIsVisible.current) {
       setVisibility("visible");
       cardIsVisible.current = true;
